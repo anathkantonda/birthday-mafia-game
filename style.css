@@ -78,3 +78,27 @@ h2 {
     color: white;
     transform: scale(1.2);
 }
+
+@media only screen and (max-width: 600px) {
+    .row-1,
+    .row-2,
+    .row-3 {
+        display: block;    
+    }
+
+    .card1, 
+    .card2, 
+    .card3, 
+    .card4,
+    .card5,
+    .card6,
+    .card7,
+    .card8,
+    .card9,
+    .card10,
+    .card11,
+    .card12{
+    width: 100%;
+    height: 200px;
+    }
+}
